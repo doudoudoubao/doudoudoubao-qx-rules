@@ -1,0 +1,98 @@
+# NAME: Meta (Facebook 全家桶)
+# DESC: Meta Platforms 旗下全部 App 分流规则 — Facebook / Messenger / Instagram /
+#       WhatsApp / Threads / Meta Quest(Oculus) / Meta AI / Workplace / Mapillary / Wit.ai
+# FOR:  Quantumult X  [filter_remote]  配合 force-policy= 使用
+# UPDATED: 2026-09-19
+
+# ============ Facebook ============
+HOST-SUFFIX,facebook.com,Meta
+HOST-SUFFIX,facebook.net,Meta
+HOST-SUFFIX,facebook.design,Meta
+HOST-SUFFIX,facebookmail.com,Meta
+HOST-SUFFIX,facebookbrand.com,Meta
+HOST-SUFFIX,thefacebook.com,Meta
+HOST-SUFFIX,fb.com,Meta
+HOST-SUFFIX,fb.me,Meta
+HOST-SUFFIX,fb.gg,Meta
+HOST-SUFFIX,fb.watch,Meta
+HOST-SUFFIX,fbwat.ch,Meta
+HOST-SUFFIX,fbcdn.net,Meta
+HOST-SUFFIX,fbcdn.com,Meta
+HOST-SUFFIX,fbsbx.com,Meta
+HOST-SUFFIX,fbpigeon.com,Meta
+HOST-SUFFIX,fbinfra.net,Meta
+HOST-SUFFIX,tfbnw.net,Meta
+
+# ============ Messenger ============
+HOST-SUFFIX,messenger.com,Meta
+HOST-SUFFIX,messengerdevelopers.com,Meta
+HOST-SUFFIX,messengerkids.com,Meta
+HOST-SUFFIX,m.me,Meta
+HOST-SUFFIX,msngr.com,Meta
+
+# ============ Instagram ============
+HOST-SUFFIX,instagram.com,Meta
+HOST-SUFFIX,cdninstagram.com,Meta
+HOST-SUFFIX,instagr.am,Meta
+HOST-SUFFIX,ig.me,Meta
+
+# ============ WhatsApp ============
+HOST-SUFFIX,whatsapp.com,Meta
+HOST-SUFFIX,whatsapp.net,Meta
+HOST-SUFFIX,wa.me,Meta
+
+# ============ Threads ============
+HOST-SUFFIX,threads.net,Meta
+HOST-SUFFIX,threads.com,Meta
+
+# ============ Meta 公司 / Quest / AI ============
+HOST-SUFFIX,meta.com,Meta
+HOST-SUFFIX,meta.ai,Meta
+HOST-SUFFIX,llama.com,Meta
+HOST-SUFFIX,oculus.com,Meta
+HOST-SUFFIX,oculuscdn.com,Meta
+HOST-SUFFIX,oculusvr.com,Meta
+
+# ============ 其他 Meta 资产 ============
+HOST-SUFFIX,workplace.com,Meta
+HOST-SUFFIX,mapillary.com,Meta
+HOST-SUFFIX,wit.ai,Meta
+HOST-SUFFIX,crowdtangle.com,Meta
+HOST-SUFFIX,accountkit.com,Meta
+HOST-SUFFIX,atdmt.com,Meta
+HOST-SUFFIX,atdmt2.com,Meta
+HOST-SUFFIX,atlassolutions.com,Meta
+HOST-SUFFIX,atlasonepoint.com,Meta
+
+# ============ 关键词兜底（scontent-xx / edge-chat 等各地区节点）============
+HOST-KEYWORD,facebook,Meta
+HOST-KEYWORD,instagram,Meta
+HOST-KEYWORD,whatsapp,Meta
+HOST-KEYWORD,fbcdn,Meta
+HOST-KEYWORD,oculus,Meta
+
+# ============ IP 兜底：Meta 自有 ASN（直连 IP / 无域名连接）============
+IP-ASN,32934,Meta
+IP-ASN,63293,Meta
+IP-ASN,54115,Meta
+
+# ============ ASN 不生效时的 CIDR 备份（默认注释，需要再放开）============
+# IP-CIDR,31.13.24.0/21,Meta
+# IP-CIDR,31.13.64.0/18,Meta
+# IP-CIDR,45.64.40.0/22,Meta
+# IP-CIDR,66.220.144.0/20,Meta
+# IP-CIDR,69.63.176.0/20,Meta
+# IP-CIDR,69.171.224.0/19,Meta
+# IP-CIDR,74.119.76.0/22,Meta
+# IP-CIDR,102.132.96.0/20,Meta
+# IP-CIDR,103.4.96.0/22,Meta
+# IP-CIDR,129.134.0.0/16,Meta
+# IP-CIDR,157.240.0.0/16,Meta
+# IP-CIDR,173.252.64.0/18,Meta
+# IP-CIDR,179.60.192.0/22,Meta
+# IP-CIDR,185.60.216.0/22,Meta
+# IP-CIDR,204.15.20.0/22,Meta
+# IP6-CIDR,2a03:2880::/32,Meta
+# IP6-CIDR,2620:0:1c00::/40,Meta
+# IP6-CIDR,2401:db00::/32,Meta
+# IP6-CIDR,2803:6080::/32,Meta
