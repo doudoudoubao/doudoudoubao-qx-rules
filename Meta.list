@@ -2,7 +2,7 @@
 # DESC: Meta Platforms 旗下全部 App 分流规则 — Facebook / Messenger / Instagram /
 #       WhatsApp / Threads / Meta Quest(Oculus) / Meta AI / Workplace / Mapillary / Wit.ai
 # FOR:  Quantumult X  [filter_remote]  配合 force-policy= 使用
-# UPDATED: 2026-09-19
+# UPDATED: 2026-11-18
 
 # ============ Facebook ============
 HOST-SUFFIX,facebook.com,Meta
@@ -48,6 +48,7 @@ HOST-SUFFIX,threads.com,Meta
 # ============ Meta 公司 / Quest / AI ============
 HOST-SUFFIX,meta.com,Meta
 HOST-SUFFIX,meta.ai,Meta
+HOST-SUFFIX,muse.ai,Meta
 HOST-SUFFIX,llama.com,Meta
 HOST-SUFFIX,oculus.com,Meta
 HOST-SUFFIX,oculuscdn.com,Meta
