@@ -1,7 +1,7 @@
 # NAME: Meta (Facebook 全家桶)
 # DESC: Meta Platforms 旗下全部 App 分流规则 — Facebook / Messenger / Instagram /
 #       WhatsApp / Threads / Meta Quest(Oculus) / Meta AI / Workplace / Mapillary / Wit.ai
-# FOR:  Quantumult X  [filter_remote]  配合 force-policy= 使用
+# FOR:  Quantumult X  [filter_local]  直接粘贴到本地分流规则区（策略名可按需替换）
 # UPDATED: 2026-11-18
 
 # ============ Facebook ============
